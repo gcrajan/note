@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-DO-List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section1">
+      <div class="container">
+        <div class="inputNote">
+          <h2 class="h-primary">TO-DO-LIST</h2>
+          <div class="form">
+            <div class="searchText">
+              <input id="searchTxt" type="text" placeholder="Search here"/>
+            </div>
+            <div class="title">
+              <h3 class="h-secondary">Enter Title</h3>
+              <input id="addTitle" type="text" />
+            </div>
+            <div class="text">
+              <h3 class="h-secondary">Enter List</h3>
+              <textarea id="addTxt" name="" id="" cols="" rows="5"></textarea>
+            </div>
+          </div>
+          <button id="addBtn" class="btn addButton">Add</button>
+        </div>
+        <div id="notes" class="showNote">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
